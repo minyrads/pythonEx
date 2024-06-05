@@ -1,0 +1,10 @@
+# make a program that takes in a word and analyze multiple things in it
+i = input('Please type anything: ')
+print('Is its alphabetical?', i.isalpha())
+print('Is it numerical?', i.isnumeric())
+print('Is it alphanumeric?', i.isalnum())
+print('Is it in upper case?', i.isupper())
+print('Is it in lower case?', i.islower())
+print('Is it capitalized?', i.istitle())
+print('Is there only space?', i.isspace())
+print('I do not know what else to check...')
