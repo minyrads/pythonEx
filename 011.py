@@ -2,6 +2,5 @@
 w = float(input('Width: '))
 h = float(input('Height: '))
 a = w*h
-l = 2**2
-p = a/l
+p = a/2
 print('The amount of liters of paint you will need to paint this wall is {}.'.format(p))
